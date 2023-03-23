@@ -1,0 +1,164 @@
+body{
+    box-sizing: border-box;
+}
+
+.nav-link{
+    color:#e2e2e2;
+}
+.nav-bak{
+    background-color: #676e74;
+    margin-right: 281px;
+}
+.image {
+    
+    background-image: url('/public/images/pag33.png') ;
+    
+   
+    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 560px;
+    width: 100%;
+    background-size: cover;
+     
+    background-position-y: 113% !important;
+}
+.main-raised {
+    margin: -95px 30px 0px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgb(251 251 251 / 12%), 0 6px 30px 5px rgb(72 101 243 / 34%), 0 8px 10px -5px rgb(81 209 243 / 40%);
+}
+.main {
+    background: #ffffff;
+    position: relative;
+    z-index: 3;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+}
+.text-cold{
+    color: #abacb1;
+    margin-bottom: 250px;
+    
+}
+.btn-cold{
+    color: #dddcdb;
+    font-weight: 900;
+    font-size: 30px;
+    background-color: #4b4f55;
+}
+.card1{
+    margin-top: -60px;
+}
+.module, .module-cover {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: cover;
+    padding: 120px 0 100px;
+}
+.pricing-wrapper {
+    position: relative;
+    background: #f8fbff;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    padding: 0 50px;
+    margin: 0 0 30px;
+    transition: .3s ease-in-out;
+}
+.pricing-header {
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 30px 0;
+}
+.pricing-price {
+    position: relative;
+    display: inline-block;
+    
+    font-weight: 600;
+    font-size: 3rem;
+}
+.pricing-wrapper .pricing-body {
+    color: #788487;
+}
+.pricing-footer {
+   
+    margin-bottom: 37px;
+    
+}
+.btn-brand{
+color: #f0f0f0;
+text-decoration: none;
+font-weight: bolder;
+}
+
+.pricing-title {
+    text-transform: uppercase;
+    letter-spacing: .0625rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 0;
+}
+.border{
+    border-bottom-right-radius: 42px;
+    border-start-start-radius: 28px;
+    box-shadow: -1px 0px 25px -2px rgb(148 154 201 / 25%) ;
+    -webkit-box-shadow: -1px 0px 25px -2px rgb(148 154 201 / 25%);
+    -moz-box-shadow: -1px 0px 25px 2px rgb(148 154 201 / 25%);
+    box-shadow: -1px 0px 25px 2px rgb(148 154 201 / 28%);
+}
+.pricing-header-1{
+    
+        position: relative;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 1px 0 10px 0;
+}
+@media (max-width: 991px){ 
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+}
+
+
+.backgru{
+    background-image: url('/public/images/bg1.png') ;
+    height: 450px;
+    background-size: cover;
+    
+}
+.smlimg{
+    margin-top: 130px;
+}
+
+.rotating-card-container .card .front {
+    z-index: 2;
+    position: relative;
+}
+
+.shadow-primary {
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(233,30,99,.4)!important;
+}
+
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
